@@ -62,6 +62,7 @@ bool erase(LinkListPtr ll, size_t i, ElemType &e)
     Node * q = NULL;
     q =  p->next;
     p->next = p->next->next;
+    e = q->data;
     free(q);
     return true;
 }
