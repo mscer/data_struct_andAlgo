@@ -51,10 +51,14 @@ void levelTraverse(TreeNodePtr t)
      //remove date
      if(NULL != queue[0]->left){
         queue.push_back(queue[0]->left); 
+        //cout << "add\t" << queue[0]->left->data << endl;    
      }
      if(NULL != queue[0]->right){
         queue.push_back(queue[0]->right); 
+        //cout << "add\t" << queue[0]->right->data << endl;    
      }
+     cout << (*(queue.begin()))->data << endl;
+     cout << "remove\t" << queue[0]->data << endl;    
      queue.erase(queue.begin());
     }
 }
