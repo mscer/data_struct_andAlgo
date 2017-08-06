@@ -12,6 +12,7 @@ void ShellSort(std::vector<int> &src);
 
 void HeapSort(std::vector<int> &src);
 
+void MeregeSort(std::vector<int> &src, int low, int high);
 
 void HeapAdjust(std::vector<int> &src,int low, int high);
 void swap(std::vector<int> &src, int i, int j);

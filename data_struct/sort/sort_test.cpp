@@ -23,10 +23,10 @@ int main()
     //sort  stage
 
     //swap(data, 1,5);
-    //BubbleSort(data);
+    //;BubbleSort(data);
     //SelectSort(data);
     //InsertSort(data); 
-    //QuickSort(data,0, data.size());
+    //QuickSort(data,0, data.size()-1);
     //ShellSort(data);
     HeapSort(data);
     cout << "after sort" << endl;
